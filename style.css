@@ -1,0 +1,75 @@
+
+    body {
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+    }
+
+    .glass {
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.75) !important;
+      backdrop-filter: blur(10px);
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    header {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+    }
+
+    section h2 {
+      font-weight: 600;
+      color: #444;
+    }
+
+    .card {
+      border: none;
+      border-radius: 1rem;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .card.glass {
+      padding: 1rem;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+      background-color: #1a1a1a;
+    }
+
+    .social-icons a {
+      transition: transform 0.2s;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+      color: #007bff;
+    }
+
+    #contactForm .form-control {
+      background: rgba(255, 255, 255, 0.6);
+      border: none;
+      border-radius: 0.75rem;
+      backdrop-filter: blur(6px);
+    }
+
+    #contactForm button {
+      border-radius: 0.75rem;
+    }
+  
