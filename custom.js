@@ -12,7 +12,7 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   // Show loading text or spinner (optional)
   document.getElementById("response").innerText = "⏳ Sending...";
 
-  fetch("https://script.google.com/macros/s/AKfycbx1N9xeTUSAJF0_mBSXHGJfQ_-vZh_ltSg6Bp9g_ozenKDrMpeAoy7x6X05--7vANPjKg/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbx9KwVdtugri4gGHBywk0vWRyi_bslXWjSm-tr-7P1J4iFVc3ObDmURLCakaSxpz7mmyw/exec", {
     method: "POST",
     body: JSON.stringify(data),
     headers: {
