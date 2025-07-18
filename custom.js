@@ -7,7 +7,7 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
     message: formData.get("message")
   };
 
-  fetch("https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbx1N9xeTUSAJF0_mBSXHGJfQ_-vZh_ltSg6Bp9g_ozenKDrMpeAoy7x6X05--7vANPjKg/exec", {
     method: "POST",
     body: JSON.stringify(data),
     headers: {
